@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-
+import PokemonList from './PokemonList';
 
 function App() {
-  const [pokemon, setPokemon] = useState()
-  
+  const [pokemon, setPokemon] = useState(["Bulbasaur", "Charmander"])
+
   return (
-    null
+    <PokemonList pokemon={pokemon}/>
   );
 }
 
