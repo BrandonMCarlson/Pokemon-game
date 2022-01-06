@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-import './App.css';
+
 function App() {
+  const [pokemon, setPokemon] = useState()
+  
   return (
     null
   );
